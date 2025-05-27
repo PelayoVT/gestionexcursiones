@@ -1,0 +1,16 @@
+# ninja log v5
+444	493	1746528472538776529	tests/gestion-excursiones-test	4434d3831e408120
+0	22	1746529606164771318	build.ninja	d7b50d124d1169f2
+0	174	1746528197390000335	src/CMakeFiles/gestion-excursiones.dir/main.cpp.o	4133ebef7ede282
+175	226	1746528197439999809	src/libgestion-excursiones-lib.a	ed397314c8ce88a
+1	124	1746528276047142451	src/CMakeFiles/gestion-excursiones-lib.dir/model/Excursion.cpp.o	d6c82df338cbe179
+124	166	1746528276088141988	src/libgestion-excursiones-lib.so	1d2bdc99f8d53fc9
+166	224	1746528276146141334	src/gestion-excursiones	d9491fdb131617e8
+1	444	1746528472490777139	tests/CMakeFiles/gestion-excursiones-test.dir/main.cpp.o	e84831d87aed0c46
+0	22	1746529606164771318	build.ninja	d7b50d124d1169f2
+0	471	1746529606638780224	tests/CMakeFiles/gestion-excursiones-test.dir/model/ExcursionTest.cpp.o	2a5293ce8a81931d
+471	517	1746529606684781089	tests/gestion-excursiones-test	ee50fc0f6d6a61b7
+0	461	1746529651347574787	tests/CMakeFiles/gestion-excursiones-test.dir/model/ExcursionTest.cpp.o	2a5293ce8a81931d
+461	515	1746529651401575693	tests/gestion-excursiones-test	ee50fc0f6d6a61b7
+1	460	1746529671873910551	tests/CMakeFiles/gestion-excursiones-test.dir/model/ExcursionTest.cpp.o	2a5293ce8a81931d
+460	509	1746529671922911332	tests/gestion-excursiones-test	ee50fc0f6d6a61b7
