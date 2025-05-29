@@ -9,6 +9,7 @@ add_executable(gestion-excursiones main.cpp
     model/SocioInfantil.hpp model/SocioInfantil.cpp
     model/Inscripciones.hpp model/Inscripciones.cpp
     controller/ExcursionController.hpp controller/ExcursionController.cpp
+    view/VistaEscursion.cpp
 )
 add_library(gestion-excursiones-lib SHARED model/Excursion.hpp model/Excursion.cpp)
 

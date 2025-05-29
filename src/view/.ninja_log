@@ -1,0 +1,14 @@
+# ninja log v5
+0	20	1748501583678028600	CMakeFiles/gestion-excursiones.dir/main.cpp.o	5287cc3c56613af7
+2	115	1748501583773028603	CMakeFiles/gestion-excursiones.dir/model/Inscripciones.cpp.o	7800f5f5fefdeeac
+1	161	1748501583818028604	CMakeFiles/gestion-excursiones.dir/model/Federacion.cpp.o	616f845679afc201
+0	188	1748501583845028605	CMakeFiles/gestion-excursiones-lib.dir/model/Excursion.cpp.o	2cdbc2eeb0343aff
+1	190	1748501583848028605	CMakeFiles/gestion-excursiones.dir/model/Socio.cpp.o	2aa6e11d0fead9bb
+1	196	1748501583854028605	CMakeFiles/gestion-excursiones.dir/model/Seguro.cpp.o	398ef2ab1971b8c9
+2	201	1748501583858028605	CMakeFiles/gestion-excursiones.dir/model/SocioInfantil.cpp.o	33dd1433a337ae45
+2	202	1748501583860028605	CMakeFiles/gestion-excursiones.dir/model/SocioFederado.cpp.o	bd9d1335a184e27e
+1	203	1748501583861028605	CMakeFiles/gestion-excursiones.dir/model/SocioEstandar.cpp.o	16a01cb3c0fb4801
+188	240	1748501583896028607	libgestion-excursiones-lib.so	3249ce24e2b674b1
+3	259	1748501583917028607	CMakeFiles/gestion-excursiones.dir/VistaEscursion.cpp.o	181885cad4d6c877
+2	359	1748501584017028610	CMakeFiles/gestion-excursiones.dir/controller/ExcursionController.cpp.o	4c47cb8771fa40d6
+359	404	1748501584061028612	gestion-excursiones	5ab64efb25136859

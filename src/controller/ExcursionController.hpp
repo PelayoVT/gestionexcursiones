@@ -47,4 +47,6 @@ public:
     std::shared_ptr<Excursion> buscarPorCodigo(const std::string& codigo) const;
 
     const std::vector<std::shared_ptr<Excursion>>& getTodas() const;
+    void cargarDesdeArchivo(const std::string& ruta);
+    void guardarEnArchivo(const std::string& ruta) const;
 };

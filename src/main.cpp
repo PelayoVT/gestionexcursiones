@@ -21,11 +21,12 @@
  *   explanation of the class
  */
 
-#include "model/Excursion.hpp"
+// #include "model/Excursion.hpp"
 
-int main()
+/**int main()
 {
     Excursion e {"EX001", "Ruta al monte", "2025-06-01", 2, 50.0};
     e.mostrar();
     return 0;
 }
+*/

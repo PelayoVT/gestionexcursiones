@@ -22,6 +22,8 @@
  */
 
 #include "ExcursionController.hpp"
+#include <fstream>
+#include <sstream>
 
 void ExcursionController::añadirExcursion(
     const std::string& codigo,
@@ -67,4 +69,44 @@ std::shared_ptr<Excursion> ExcursionController::buscarPorCodigo(const std::strin
 const std::vector<std::shared_ptr<Excursion>>& ExcursionController::getTodas() const
 {
     return excursiones;
+}
+
+void ExcursionController::cargarDesdeArchivo(const std::string& ruta)
+{
+    std::ifstream archivo(ruta);
+    if (!archivo.is_open())
+        return;
+
+    std::string linea;
+    while (std::getline(archivo, linea))
+    {
+        std::istringstream ss(linea);
+        std::string codigo, descripcion, fecha;
+        int dias;
+        double precio;
+
+        std::getline(ss, codigo, ',');
+        std::getline(ss, descripcion, ',');
+        std::getline(ss, fecha, ',');
+        ss >> dias;
+        ss.ignore(1);
+        ss >> precio;
+
+        añadirExcursion(codigo, descripcion, fecha, dias, precio);
+    }
+    archivo.close();
+}
+
+void ExcursionController::guardarEnArchivo(const std::string& ruta) const
+{
+    std::ofstream archivo(ruta);
+    if (!archivo.is_open())
+        return;
+
+    for (const auto& e : excursiones)
+    {
+        archivo << e->getCodigo() << "," << e->getDescripcion() << "," << e->getFecha() << ","
+                << e->getNumeroDias() << "," << e->getPrecio() << "\n";
+    }
+    archivo.close();
 }
